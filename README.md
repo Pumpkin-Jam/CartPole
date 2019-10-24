@@ -5,8 +5,8 @@
 - Library: Tensorflow
 
 ## 概要
-クローンして実行してみる際には，各自の環境に適宜必要なものをインストールして実行してください. (tensorflow, gym, numpy, etc...)<br>
+クローンして実行してみる際には，各自の環境に適宜必要なものをインストールして実行してください. (tensorflow, gym, numpy, matplotlib, etc...)<br>
 CartPoleをDQNで学習させたものです．モデルはtensorflow.kerasを用いて構築しています．<br>
-cartpole_dqn.pyを実行することで，学習させることができます．<br>
-best_model.h5は学習済みモデルです.<br>
-実行結果のグラフがfigure_loss_step.pngです．
+cartpole_dqn.py: 実行用pythonファイル<br>
+best_model.h5: 学習済みモデル<br>
+figure_loss_step.png: 実行結果のグラフ<loss and steps>
